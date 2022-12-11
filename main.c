@@ -1,9 +1,12 @@
-// Online C compiler to run C program online
+// Print numbers from 1 to 10
 #include <stdio.h>
 
 int main() {
-    // Write C code here
-    printf("Hello Sushank");
+  int i;
 
-    return 0;
+  for (i = 1; i < 11; ++i)
+  {
+    printf("%d ", i);
+  }
+  return 0;
 }
