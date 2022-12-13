@@ -1,0 +1,20 @@
+/*checking of subject marks*/
+#include<stdio.h>
+int main()
+{
+    int marks;
+    printf("Enter your subject marks\n");
+    scanf("%d",&marks);
+    if(marks>=50)
+    {
+        printf("congratulations \n");
+        printf("you cleared the subject");
+    }
+    else
+    {
+        printf("you failed \n");
+        printf("better luck next time");
+    }
+    return 0;
+
+}
