@@ -1,0 +1,19 @@
+/*program for simple and compound intrest*/
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    float si,ci,p,t,r;
+    printf("enter time:\n");
+    scanf("%f",&t);
+    printf("enter principle amount:\n");
+    scanf("%f",&p);
+    printf("enter rate:\n");
+    scanf("%f",&r);
+    ci=p*pow((1+r/100),t);
+    printf("ci=%f\n",ci);
+    si=(p*t*r)/100;
+    printf("si=%f\n",si);
+    return 0;
+
+}
