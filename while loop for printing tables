@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+int table,n;
+printf("enter the value of table:\n");
+scanf("%d",&table);
+printf("enter the value of n:\n");
+scanf("%d",&n);
+
+while(n!=11)
+{
+    printf("%d*%d=%d\n",table,n,(table*n));
+    n++;
+
+}
+return 0;
+}
