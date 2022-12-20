@@ -1,0 +1,15 @@
+#include<Stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter a&b values:");
+    scanf("%d%d",&a,&b);
+    printf("~b=%d\n",~b);
+    printf("a&b=%d\n",a&b);
+    printf("a|b=%d\n",a|b);
+    printf("a<<2=%d\n",a<<2);
+    printf("a>>2=%d\n",a>>2);
+    printf("a^b=%d\n",a^b);
+    return 0;
+
+}
