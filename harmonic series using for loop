@@ -1,0 +1,12 @@
+/*program to print harmoinc series using for loop*/
+#include<stdio.h>
+int main()
+{
+    int i,sum;// declaration part//
+    for(i=1;i<=10;i++)//using for loop//
+    {
+        printf("1/%d\n",i);
+    }
+    return 0;
+
+}
